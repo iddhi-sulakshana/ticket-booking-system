@@ -25,7 +25,7 @@
             <a class="nav-link" href="./#upcoming">Upcoming</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="./AboutUs.jsp">About</a>
+            <a class="nav-link" href="aboutUs.jsp">About</a>
           </li>
         </ul>
         <div class="nav-item" style="margin-right: 2rem;">
