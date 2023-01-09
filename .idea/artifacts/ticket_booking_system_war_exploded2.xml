@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ticket-booking-system:war exploded">
+    <output-path>$PROJECT_DIR$/target/ticket_booking_system-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>ticket-booking-system</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ticket-booking-system" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver-sync:4.8.0" />
+          <element id="library" level="project" name="Maven: org.mongodb:bson:4.8.0" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver-core:4.8.0" />
+          <element id="library" level="project" name="Maven: org.mongodb:bson-record-codec:4.8.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/ticket_booking_system-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ticket-booking-system/web/Web" />
+    </root>
+  </artifact>
+</component>
